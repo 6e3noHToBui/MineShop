@@ -1,0 +1,87 @@
+.app{
+    justify-content: center;
+}
+.auth-form{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgba(255, 255, 255, 0.43);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth-form p{
+    color: rgb(129, 13, 224);
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.auth-form hr{
+    width: 95%;
+    border-color: rgba(255, 255, 255, 0.43);
+    height: 2px;
+}
+.auth-form .input-fields{
+    padding-top: 10px;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.auth-form .input-fields input{
+    width: 55%;
+    height: 35px;
+    background-color: rgba(240, 248, 255, 0.114);
+    color: white;
+    font-size: 19px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid yellow;
+}
+.auth-form .input-fields input::placeholder{
+    color: rgba(255, 255, 255, 0.397);
+    font-size: 18px;
+    font-weight: bold;
+}
+.auth-form .input-fields input:focus{
+    width: 60%;
+    height: 30px;
+    background-color: rgba(122, 247, 122, 0.111);
+}
+.auth-form .input-fields input:focus::placeholder {
+    color: transparent;
+}
+.auth-form .accept-button button{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.082);
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight:bold;
+    padding-bottom: 2px;
+}
+.auth-form .accept-button button:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(240, 255, 248, 0.314);
+    color: black;
+    font-size: 16px;
+    font-weight:bold;
+}
+.input-fields .validation-error{
+    width: 170px;
+    height: 60px;
+}
+.input-fields .validation-error li{
+    color: rgb(233, 8, 8);
+    font-size: 18px;
+    font-weight: bold;
+    list-style-type: '';
+}
+

@@ -1,0 +1,29 @@
+{
+    "serverPort":{
+        "port":5000
+    },
+    "database":{
+        "Enthusiasm": "",
+        "McSkill": ""
+    },
+    "link":{
+        "McSkill":{
+            "crew": "",
+            "logs": "",
+            "servers":""
+        },
+        "Enthusiasm":{
+            "crew": "",
+            "logs": "",
+            "servers": "",
+            "shops": ""
+        }
+    },
+    "botToken": "",
+    "SECRET_JWT_KEY": "",
+    "channel_id":"",
+    "role_id":{
+        "st":"",
+        "curator":""
+    }
+}

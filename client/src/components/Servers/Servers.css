@@ -1,0 +1,49 @@
+.servers-container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .server {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .server-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgba(23, 203, 137, 0.668);
+  }
+  
+  .crew-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .member {
+    width: 150px;
+    height: 110px;
+    background-color: rgba(250, 235, 215, 0.253);
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #aa0921;
+    padding: 10px;
+  }
+  .member img{
+    width: 50px;
+    height: 50px;
+  }
+
+p{
+    margin: 5px;
+    color: rgba(10, 0, 83, 0.773);
+    font-size: 20px;
+    font-weight: bold;
+  }

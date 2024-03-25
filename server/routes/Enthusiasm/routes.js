@@ -1,0 +1,21 @@
+const router = require('express').Router()
+const {parseServersData, getServersData} = require("../../controllers/Enthusiasm/server")
+const {getServerCrew, getServerCrewStats} = require("../../controllers/Enthusiasm/crew")
+const {addItemToServerShop,getServerShop,buyItems}=require("../../controllers/Enthusiasm/shop")
+const {changePass,login,createAccount, addUserServerRole, getUserServers} = require("../../controllers/Enthusiasm/user")
+const authMiddleware = require('../../middleware/authMiddleware')
+
+router.get('/parse-servers', parseServersData)
+router.post('/get-server-crew', getServerCrew)
+router.get('/get-servers',getServersData)
+router.post('/get-server-crew-stats',getServerCrewStats)
+router.post('/add-item-to-server-shop',addItemToServerShop)
+router.post('/get-server-shop',getServerShop)
+router.post('/create-account', createAccount)
+router.post('/add-user-server-role', addUserServerRole)
+router.post('/login', login)
+router.post ('/change-pass', authMiddleware, changePass)
+router.get('/get-user-servers',authMiddleware, getUserServers)
+router.post('/buy-items',authMiddleware,buyItems)
+
+module.exports = router

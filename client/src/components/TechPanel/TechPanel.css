@@ -1,0 +1,38 @@
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 90%;
+    height: 90%;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.303);
+}
+.crew-list-panel{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10px;
+    gap: 20px;
+    .member{
+        height: 150px;
+        width: 170px;
+        .option{
+            display: flex;
+            justify-content: flex-end;
+            
+        }
+    }
+    border-right: 2px solid black;
+}
+.search{
+    padding: 10px;
+    width: 15%;
+    input{
+        width: 150px;
+    }
+    select{
+        margin-left: 3px;
+        width: 150px;
+    }
+}

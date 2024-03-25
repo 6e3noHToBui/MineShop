@@ -1,0 +1,84 @@
+.shop-container {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-container {
+  display: flex;
+  height: 200px;
+  width: 180px;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid black;
+  gap:5%;
+  margin: 0 20px 0 0;
+}
+.shop-select{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10% 5% 0 5%;
+    font-size: 20px;
+}
+.filter-container select {
+  font-size: 16px;
+  background-color: rgba(80, 3, 138, 0.708);
+  font-weight: bold;
+  color: rgb(251, 0, 79)
+}
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5% 0 5%;
+  color: rgb(251, 0, 79);
+  font-weight: bold;
+  font-size: 18px;
+}
+.filter-container input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.shop {
+  margin-bottom: 20px;
+  display: flex;
+  width: 85%;
+}
+.items {
+  margin-top: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  width: 200px;
+  height: 250px;
+  border-radius: 50px;
+  background-color: rgba(240, 248, 255, 0.147);
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item .item-image{
+  height: 75%;
+}
+
+.item p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}

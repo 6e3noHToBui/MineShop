@@ -1,0 +1,72 @@
+.header {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 5% 1% 5%;
+    border: 5px;
+    background-color: rgba(112, 112, 112, 0.418);
+    opacity: 0.9;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+.logo{
+    padding-left: 20px;
+}
+.nav-menu {
+    justify-content: space-evenly;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-menu button {
+    width: 150px;
+    padding: 10px;
+    background-color: #4caf4f26; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.nav-menu button:hover{
+    background-color: #4caf4f8f;
+}
+
+.profile-menu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 20%;
+    height: 90%;
+    padding-right: 20px;
+}
+
+.profile-menu .cart-logo img{
+    height: 35px;
+    margin-right: 20px;
+}
+
+.login-button button {
+    width: 150px;
+    padding: 10px;
+    background-color: #4caf4f26; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login-button button:hover{
+    background-color: #4caf4f8f;
+}
