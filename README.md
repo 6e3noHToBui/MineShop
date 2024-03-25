@@ -1,8 +1,9 @@
-To run frontend app we need open terminal and do command:
+<h3>To run frontend app we need open terminal and do command:
 1)cd client
 2)npm install
 3)npm start
-To run backend app:
+<h3>To run backend app:
 1)cd server
 2)npm install
 3)npm start
+<h3>In server folder 'client' we need create default.json, by sample in default_sample
